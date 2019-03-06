@@ -1,58 +1,73 @@
-.nav-footer{
-    background-color: #191919;
-    width: 100%;
-    justify-content: space-around;
-    padding: 0px 30px;
-
+.body_text{
+	padding-top: 50px;
+	text-align: center;
 }
-.nav-footer ul li{
-    
-    margin: 5px;
-    padding: 5px;
+.body_text p{
+	margin-top: 40px;
+}
+.underline_title{
+	border-top: 2px solid rgb(243,108,108);
+	width: 80px;
+	margin: auto;
+}
+.body_text h3{
+    padding-bottom: 10px;
     text-align: center;
-    list-style-type: none;
+
 }
-.nav-footer a, h5, h4{
-    color: white;
+.body_img1{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	box-shadow: 20px 20px 40px rgb(236,109,106);
+
+}
+.body_img2{
+	background: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66)), url('https://media.boalingua.ch/images/frankreich_bordeaux_wasser-platz02.jpg') no-repeat fixed;
+	background-size: cover;
+	opacity: 0.9;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+.body_img2 h3{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 4vw;
+	color: white;
+}
+.body_img2 span{
+	border-bottom: 2px solid rgb(243,108,108);
+	padding-bottom: 6px;
+}
+.body_icone{
+	z-index: 1;
+	margin-top:20px;
+	text-align: center;
+	padding: 131px;
+	color: white;
+}
+.body_icone p{
+	font-size: 2em;
+}
+.body_icone_text{
+	margin-top: 50px;
+}
+	
+.body_img3{
+	margin-bottom:30px;
+	margin-top: 40px;
 }
 
-.nav-footer p{
-    color: #a79090;
+.body_img3::before {
+	position: absolute;
+	content: " ";
+	top: -5px;
+	left: 70px;
+	border: 4px solid rgb(243,108,108);
+	width: 77%;
+	height: 85%;
 }
-.rose-link{
-    color: rgb(243,108,108) ;
-    font-size: 20px;
-}
-.nav-footer .ligne{
-    color: rgb(243,108,108) ;
-    text-align: center;
-    
-}
- .entrez{
-    height: 50px;
-    color: #a79090;
-    background-color: #191919;
-    font-size: 12px;
-    
-}
-.nav-footer-bouton{
-    height: 50px;
-    background-color: #191919;
-    font-size: 30px;
-    border-left: 0;
-}
-
-.footer-copyright{
-    color: #a79090;
-}
-.arrond{
-    border-radius: 20%;
-}
-
-.bouton-centre{
-    
-    width: 100%;
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
+.logo_img3{
+	background-color: white;
+	position: relative;
 }
