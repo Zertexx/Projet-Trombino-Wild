@@ -1,0 +1,74 @@
+/***************************/
+/***** Contact Form ********/
+/***************************/
+.form-title-box
+{
+    margin-bottom: 40px
+}
+.form-title
+{
+    text-align: center;
+}
+.form-underline
+{
+    border-top: 2px solid #f99797;
+    width: 80px;
+    margin:auto;
+}
+.form-title-bold
+{
+    font-weight: bolder;
+}
+.contact-btn-bloc
+{
+    margin: 2% 2%;
+    justify-content: center;
+}
+.form-box
+{
+    border-radius: 0;
+    border: 1px solid #9e9e9e;
+}
+.contact-btn
+{
+   border-radius: 0;
+   background-color: #000000;
+   color: white;
+   transition: 1.5s;
+   margin-top: 18px;
+}
+
+.contact-btn:hover
+{
+    background-color:#f99797;
+    transition: 1.5s;
+}
+.contact-form-group
+{
+    margin-bottom: 5px;
+}
+
+/******* Map **********/
+.form-map
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.form-map-container
+{
+   overflow:hidden;
+   width: 100%;
+}
+
+.form-map-title-box
+{
+   position: absolute;
+   width: 80%;
+   bottom: 10px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   color: #000;
+   text-align: center; 
+}
