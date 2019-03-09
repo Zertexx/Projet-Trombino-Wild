@@ -1,0 +1,49 @@
+/***************************/
+/***** Trombinoscope *******/
+/***************************/
+
+.trombi-box-pict
+{
+  margin: 20px auto 20px auto;
+}
+
+.trombi-pict
+{
+  width: 100%; 
+}
+
+.trombi-bloc-text
+{
+  visibility: hidden;
+  transition: 1.5s;
+  bottom: 0;
+  position: absolute;
+  height: 60px;
+  width: 89.1%;
+  left: 5.5%;
+  background-color: #000000bf;
+  opacity:0;
+}
+
+.trombi-text-title
+{
+  color: #f99797;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.trombi-text-subtitle
+{
+  color: white;
+
+}
+
+.trombi-pict:hover ~ .trombi-bloc-text
+{
+  visibility: visible;
+  opacity: 1;
+  transition: 1.5s;
+}
+
+/*****************************/
+/*****************************/
